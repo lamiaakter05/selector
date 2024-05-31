@@ -1,0 +1,62 @@
+.intro {
+  background-color: red;
+}
+
+div+p{
+  background-color: yellow;
+}
+
+p~ul{
+  background-color: seagreen;
+}
+
+a[target]{
+  background-color: red;
+}
+
+[lang|="en"] {
+  background: yellow;
+}
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+
+input:default {
+  box-shadow: 0 0 1px 1px red;
+}
+
+  p:first-child {
+  background-color: yellow;
+}
+p:first-of-type {
+  background: red;
+}
+input:focus {
+  background-color: yellow;
+}
+input:in-range {
+  border: 2px solid yellow;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+a:link{
+  background-color: yellow;
+}
+::marker{
+  color:red;
+}
+
+input:optional{
+  background-color: yellow;
+}
+
+::placeholder {
+  color: red;
+}
+a:visited{
+  background-color: pink;
+}

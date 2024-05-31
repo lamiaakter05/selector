@@ -1,0 +1,173 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SSB611</title>
+	<!--css links-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Demo of the .class selector</h1>
+
+<div class="intro">
+  <p>My name is Donald.</p>
+  <p>I live in Duckburg.</p>
+</div>
+
+<p>My best friend is Mickey.</p>
+
+<p class="intro">My best friend is Mickey.</p>
+
+<h1>Demo of the element + element selector</h1>
+
+<div>
+  <h2>My name is Donald</h2>
+  <p>I live in Duckburg.</p>
+</div>
+
+<p>My best friend is Mickey.</p>
+
+<p>I will not be styled.</p>
+
+<div>A div element.</div>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p>The first paragraph.</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h2>Another list</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h1>Demo of the [attribute] selector</h1>
+
+<p>style all a elements with target attribute</p>
+
+<a href="https://www.w3schools.com">W3schools.com</a><br>
+<a href="https://www.google.com" target="_blank">Google.com</a><br>
+<a href="https://www.microsoft.com" target="_blank">Microsoft.com</a>
+
+
+<h1>Demo of the [attribute|=value] selector</h1>
+
+<p>Elements with a lang attribute with value "en" is styled with a yellow background:</p>
+
+<p lang="en">Hello!</p>
+<p lang="en-us">Hi!</p>
+<p lang="en-gb">Ello!</p>
+<p lang="us">Hi!</p>
+<p lang="no">Hei!</p>
+
+<h1>Demo of the ::after selector</h1>
+
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+
+<form action="">
+  <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+  <input type="radio" value="female" name="gender"> Female<br>
+  <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+  <input type="checkbox" value="Car"> I have a car 
+</form>
+
+<form action="">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+
+<h1>The default Selector</h1>
+<p>The :default selector selects the default form element in a group of related elements.</p>
+<p>The "male" radio button is checked by default:</p>
+
+<form action="">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+
+<p>This paragraph is the first child of its parent (body).</p>
+<p>This paragraph is not the first child of its parent (body).</p>
+
+<div>
+  <p>This paragraph is the first child of its parent (div).</p>
+  <p>This paragraph is not the first child of its parent (div).</p>
+</div>
+
+<p>The first paragraph.</p>
+<p>The second paragraph.</p>
+<p>The third paragraph.</p>
+<p>The fourth paragraph.</p>
+
+<form>
+  First name: <input type="text" name="firstname"><br>
+  Last name: <input type="text" name="lastname">
+</form>
+
+<h1>Demo of the :in-range selector</h1>
+
+<input type="number" min="5" max="10" value="7">
+
+<p>Try typing a number out of range (less than 5 or higher than 10), to see the styling disappear.</p>
+
+
+<h1>Demo of the :invalid selector</h1>
+
+<input type="email" value="supportEmail">
+
+<p>Try typing a legal e-mail address, to see the styling disappear.</p>
+
+<h1>Demo of the :link selector</h1>
+
+<p>The :link selector style links to pages you have not visited yet:</p>
+
+<a href="https://www.w3schools.com">W3Sschools</a>
+<a href="http://www.wikipedia.org">Wikipedia</a>
+
+<h1>Demo of the ::marker selector</h1>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+
+<h1>Demo of the :optional selector</h1>
+
+<p>An optional input element:<br><input></p>
+
+<p>A required input element:<br><input required></p>
+
+
+<p>Use the ::placeholder selector to change the color of the placeholder text:</p>
+
+<input type="text" name="fname" placeholder="First name"><br><br>
+
+
+<a href="https://www.w3schools.com">W3Schools Home</a><br>
+<a href="https://www.w3schools.com/html/">W3Schools HTML Tutorial</a><br>
+<a href="https://www.w3schools.com/css/">W3Schools CSS Tutorial</a>
+
+</body>
+</html>
